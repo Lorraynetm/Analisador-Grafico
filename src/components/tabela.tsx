@@ -41,6 +41,13 @@ export default function Tabela() {
                 <td className="p-2">R$ 1.200</td>
                 <td className="p-2"><span className="bg-red-500 text-black font-semibold py-1 px-2 rounded">Cancelada</span></td>
               </tr>
+              <tr>
+                <td className="p-2">29/02/2026</td>
+                <td className="p-2">Pagamento dos Funcionarios</td>
+                <td className="p-2">Fixa</td>
+                <td className="p-2">R$ 20.400</td>
+                <td className="p-2"><span className="bg-green-500 text-black font-semibold py-1 px-2 rounded">Concluida</span></td>
+              </tr>
             </tbody>
           
         </table>
