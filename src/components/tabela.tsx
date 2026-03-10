@@ -1,20 +1,20 @@
 export default function Tabela() {
     return (
-      <div className="bg-gray-300 p-4 rounded-lg shadow">
-        <h3 className="font-bold text-2xl">Transações Recentes</h3>
-        <table className="text-left w-full mt-4 border-collapse">
+      <section className="bg-gray-200 p-4 rounded-lg shadow">
+        <table className="text-left w-full  border-collapse">
+          <caption className="font-bold pb-4 text-left text-2xl">Transações Recentes</caption>
           <thead>
             <tr>
-              <th className="p-2 text-base">Data</th>
-              <th className="p-2 text-base">Descrição</th>
-              <th className="p-2 text-base">Categoria</th>
-              <th className="p-2 text-base">Valor</th>
-              <th className="p-2 text-base">Status</th>
+              <th scope="col" className="p-2">Data</th>
+              <th scope="col" className="p-2">Descrição</th>
+              <th scope="col" className="p-2">Categoria</th>
+              <th scope="col" className="p-2">Valor</th>
+              <th scope="col" className="p-2">Status</th>
             </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="p-2 text-base">02/03/2026</td>
+                <td className="p-2">02/03/2026</td>
                 <td className="p-2">Venda de Produtos</td>
                 <td className="p-2">Vendas</td>
                 <td className="p-2">R$ 12.500</td>
@@ -44,6 +44,6 @@ export default function Tabela() {
             </tbody>
           
         </table>
-      </div>
+      </section>
     )
 }
